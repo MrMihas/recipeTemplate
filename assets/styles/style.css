@@ -1,0 +1,59 @@
+.cont{
+	width: 300px;
+}
+
+input{
+	display: inline-block;
+flex: 1;
+font-size: 16px;
+width: 100%;
+max-width: 100%;
+margin-left: 4px;
+padding: 0;
+min-height: 24px;
+min-width: 50px;
+background: inherit;
+border: 0;
+color: #1e1e1e;
+box-shadow: none;
+	outline: none;
+}
+
+.div{
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+box-shadow: 0 0 0 transparent;
+transition: box-shadow .1s linear;
+border-radius: 2px;
+border: 1px solid #757575;
+font-size: 16px;
+line-height: normal;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+width: 100%;
+margin: 0 0 8px;
+padding: 2px 4px;
+cursor: text;
+}
+
+.components-form-token-field__token {
+  font-size: 13px;
+  display: flex;
+  margin: 2px 4px 2px 0;
+  color: #1e1e1e;
+  max-width: 100%;
+}
+
+.field__token-text {
+  display: inline-block;
+  line-height: 24px;
+	padding: 0 5px;
+  height: auto;
+  background: #ddd;
+  min-width: unset;
+  transition: all .2s cubic-bezier(.4,1,.4,1);
+}
+
+#out{
+	color: blue;
+}
